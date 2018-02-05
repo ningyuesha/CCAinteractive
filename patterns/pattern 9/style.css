@@ -1,0 +1,43 @@
+body {
+  background-color: #7190ff;
+  margin: inherit;
+}
+
+#circle1 div {
+  height: 4vw;
+  width: 4vw;
+  border-radius: 50%;
+  background-color: #7190ff;
+  border: solid;
+  border-color: #ff98c3;
+  border-width: 0.5vw;
+  margin: 4vw;
+  float: left;
+}
+
+#circle1 {
+  margin-top: 5vw;
+  position: absolute;
+  margin-left: 6.5vw;
+
+
+}
+
+
+#circle2 div {
+  height: 2vw;
+  width: 2vw;
+  border-radius: 50%;
+  background-color: #ff98c3;
+  margin: 5.5vw;
+  float: left;
+
+
+}
+
+#circle2 {
+  margin-left: vw;
+  margin-top: -2vw;
+  position: absolute;
+
+}

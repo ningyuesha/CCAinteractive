@@ -1,0 +1,64 @@
+body {
+  background-color: #ffeb3b;
+  margin: inherit;
+}
+
+#circle1 div {
+  height: 8vw;
+  width: 8vw;
+  border-radius: 50%;
+  background-color: #ffeb3b;
+  margin: 2vw;
+  float: left;
+  box-shadow: 1vw 1vw 1vw rgba(50,50,50,.5);
+
+}
+
+#circle1 {
+  margin-left: 4vw;
+  margin-top: 5vw;
+  position: absolute;
+
+
+}
+
+
+#circle2 div {
+  height: 8vw;
+  width: 8vw;
+  border-radius: 50%;
+  background-color: black;
+  margin: 2vw;
+  float: left;
+
+
+}
+
+#circle2 {
+  margin-top: -2vw;
+  margin-left: 4vw;
+  position: absolute;
+
+}
+
+
+#circle3 div {
+  height: 4vw;
+  width: 4vw;
+  border-radius: 50%;
+  background-color: black;
+  margin: 4vw;
+  float: left;
+  box-shadow: 1vw 1vw 1vw rgba(50,50,50,.5);
+  mix-blend-mode:
+
+
+
+}
+
+#circle3 {
+  width:100%;
+  margin-top: 5vw;
+  margin-left: -2vw;
+  position: fixed;
+}

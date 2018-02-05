@@ -1,0 +1,121 @@
+body {
+  background-color: #cffaff;
+  margin: inherit;
+}
+
+#square1 div {
+  height: 5vw;
+  width: 5vw;
+  background-color: white;
+  transform: rotate(45deg);
+  margin-bottom: 1vw;
+  margin-left: -3vw;
+  border: solid black;
+  float: left;
+}
+
+#square1 {
+  width: 120vw;
+  margin-left: -2vw;
+  position: absolute;
+}
+
+#stripe1 div {
+  width: 114vw;
+  height: 5vw;
+  background-color: #b0f1f9;
+}
+
+#stripe1 {
+  margin-top: 10vw;
+  position: absolute;
+}
+
+#stripe2 div {
+  width: 114vw;
+  height: 5vw;
+  background-color: #9bf2fd;
+}
+
+#stripe2 {
+  margin-top: 15vw;
+  position: absolute;
+}
+
+#stripe3 div {
+  width: 114vw;
+  height: 5vw;
+  background-color: #75e5f3;
+}
+
+#stripe3 {
+  margin-top: 22vw;
+  position: absolute;
+}
+
+#stripe4 div {
+  width: 114vw;
+  height: 5vw;
+  background-color: #51dbec;
+}
+
+#stripe4 {
+  margin-top: 28vw;
+  position: absolute;
+}
+
+#stripe5 div {
+  width: 114vw;
+  height: 5vw;
+  background-color: #33cfe2;
+}
+
+#stripe5 {
+  margin-top: 35vw;
+  position: absolute;
+}
+
+#stripe6 div {
+  width: 114vw;
+  height: 5vw;
+  background-color: #1bc7dc;
+}
+
+#stripe6 {
+  margin-top: 40vw;
+  position: absolute;
+}
+
+#stripe7 div {
+  width: 114vw;
+  height: 5vw;
+  background-color: #1bc7dc;
+}
+
+#stripe7 {
+  margin-top: 48vw;
+  position: absolute;
+}
+
+#stripe8 div {
+  width: 114vw;
+  height: 5vw;
+  background-color: #188bb7;
+}
+
+#stripe8 {
+  margin-top: 55vw;
+  position: absolute;
+}
+
+
+#stripe9 div {
+  width: 114vw;
+  height: 5vw;
+  background-color: #014a94;
+}
+
+#stripe9 {
+  margin-top: 60vw;
+  position: absolute;
+}

@@ -1,0 +1,32 @@
+body {
+  background-color: #8bc34a;
+  margin: inherit;
+}
+
+#triangle1 div {
+  width: 0;
+  height: 0;
+  border-left: 1.2vw solid transparent;
+  border-right: 1.2vw solid transparent;
+  border-top: 2vw solid #ffeb3b;
+  float: left;
+  margin-right: 1.2vw;
+  margin-bottom: 4vh;
+}
+
+#triangle1 {
+  width: 101vw;
+}
+
+#lines div {
+  width: 0.4vw;
+  height: 100%;
+  background-color: #ffeb3b;
+  margin-left: 0.8vw;
+  float: left;
+}
+
+#lines {
+  height: 102vh;;
+  position: absolute;
+}

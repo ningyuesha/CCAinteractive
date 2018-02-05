@@ -1,0 +1,54 @@
+body {
+  background-color: #d8d8d8;
+  margin: inherit;
+}
+
+#white div {
+  height: 5vw;
+  width: 5vw;
+  transform: rotate(45deg);
+  background-color: white;
+  margin: 3.5vw;
+  float: left;
+}
+
+#white {
+  height: 100%;
+  width: 100%;
+  margin-left: 2vw;
+  position: absolute;
+
+
+}
+
+
+#black div {
+  height: 5vw;
+  width: 5vw;
+  transform: rotate(45deg);
+  background-color: #72fbdb;
+  margin: 3.5vw;
+  float: left;
+
+
+}
+
+#black {
+  position: absolute;
+
+}
+
+
+#bar div {
+  height: 1vw;
+  margin-bottom: 5vw;
+  background-color: #d8d8d8;
+  mix-blend-mode: darken;
+
+
+}
+
+#bar {
+  width:100%;
+  position: absolute;
+}
