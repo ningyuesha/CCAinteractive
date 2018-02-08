@@ -1,0 +1,50 @@
+body {
+  background-color: grey;
+  margin: inherit;
+}
+
+#pacman {
+  width: 0px;
+  height: 0px;
+  border-right: 6vw solid transparent;
+  border-top: 6vw solid #ffeb3b;
+  border-left: 6vw solid #ffeb3b;
+  border-bottom: 6vw solid #ffeb3b;
+  border-top-left-radius: 6vw;
+  border-top-right-radius: 6vw;
+  border-bottom-left-radius: 6vw;
+  border-bottom-right-radius: 6vw;
+  margin-left: 44vw;
+  transform: rotate(90deg);
+  position: fixed;
+
+}
+
+
+#circle1 div {
+  height: 2vw;
+  width: 2vw;
+  border-radius: 50%;
+  background-color: #ffeb3b;
+  margin-left: 49vw;
+  margin-bottom: 8vw;
+      box-shadow: -1vw 1vw 1vw rgba(50,50,50,.5);
+}
+#circle1 {
+}
+
+#circle {
+  height: 120vw;
+  width: 120vw;
+  border-radius: 50%;
+  background-color: #ffeb3b;
+  margin-left: -10%;
+  position: absolute;
+}
+
+#square {
+  height: 100%;
+  width: 100%;
+  background-color: #ffeb3b;
+  margin-top: 80%;
+}

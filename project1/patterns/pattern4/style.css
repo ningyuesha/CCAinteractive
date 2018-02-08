@@ -1,0 +1,59 @@
+body {
+  overflow-x: hidden;
+  background-color: #1769ff;
+  margin:inherit;
+}
+
+#circle1 div{
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+  background-color: #2b9ed2bd;
+  float: right;
+  margin: 1vw;
+}
+#circle1 {
+  width: 104vw;
+  margin-top:1vw;
+  position: absolute;
+  margin-left: -5vw
+
+
+}
+
+
+#circle2 div{
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+  background-color: blue;
+  float: right;
+  margin: 3vw;
+}
+#circle2 {
+  width: 90%;
+  margin-left: 4vw;
+  position: fixed;
+  mix-blend-mode: lighten;
+
+
+}
+
+#circle3 div{
+  height: 2vw;
+  width: 2vw;
+  border-radius: 50%;
+  background-color: yellow;
+  float: right;
+  margin: 4vw;
+  mix-blend-mode: overlay;
+}
+
+#circle3 {
+  width: 120vw;
+  margin-top: -25vh;
+  position: absolute;
+  transform: rotate(35deg);
+
+
+}

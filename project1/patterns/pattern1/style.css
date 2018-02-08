@@ -1,0 +1,39 @@
+body {
+
+  background-color: #fffcec;
+  margin:inherit;
+}
+
+div {
+  height: 3vh;
+  margin-top: 30px;
+
+}
+
+#circle {
+  top: 2vh;
+  position: sticky;
+}
+
+#circle div {
+  background: #e2308a;
+}
+
+#circle2 {
+  top: 3vh;
+  position: sticky;
+}
+
+#circle2 div {
+  background: #ff7ea8;
+
+}
+
+#circle3 {
+  top: 4vh;
+  position: sticky;
+}
+
+#circle3 div {
+  background: #ffb5b9;
+}
