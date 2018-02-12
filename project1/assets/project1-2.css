@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  font-family: 'Press Start 2P';
+  color: #6341ff;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+img {
+  margin-top: 10vw;
+  margin-left: 5vw;
+  max-width: 12%;
+  box-shadow: 15px 20px #6341ff;
+}
+
+div {
+  margin-bottom: 10vw;
+}
+
+
+
+#close {
+  font-size: 56px;
+  font-style: bold;
+  color: gold;
+  position: fixed;
+  margin-left: 92%;
+  margin-top: 0%;
+  text-decoration: none;
+}
+
+img:hover {
+  margin-top: 10vw;
+  margin-left: 5vw;
+  max-width: 12%;
+  box-shadow: 15px 20px #6341ff;
+  background-color: red;
+  mix-blend-mode: overlay;
+  filter: hue-rotate(90deg) saturate(3);
+}

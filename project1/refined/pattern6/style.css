@@ -34,7 +34,7 @@ body {
 }
 
 #black {
-  position: absolute;
+  position: fixed;
 
 }
 
@@ -51,4 +51,29 @@ body {
 #bar {
   width:100%;
   position: absolute;
+}
+
+  #bar div:hover{
+  background-color: yellow;
+  background: linear-gradient(to  bottom, yellow, rgba(255, 0, 0, 0));
+
+  height: 7vw;
+}
+
+#light div{
+  height: 7vw;
+  width: 7vw;
+  margin-bottom: 5.5vw;
+  margin-right: 5.5vw;
+  float: left;
+}
+
+#light {
+  width: 110vw;
+  margin-top:2vw;
+  margin-left: 3vw;
+}
+
+#light div:hover{
+  background-color: linear-gradient(to bottom, yellow, rgba(255, 0, 0, 0));
 }
