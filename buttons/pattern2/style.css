@@ -78,3 +78,26 @@ body {
 
   filter: hue-rotate(180deg) saturate(5);
 }
+
+@media (min-width:1800px) {
+
+    .item {
+        width: 25%;
+    }
+}
+
+@media (max-width:1200px) {
+
+    .item {
+        width: 50%;
+    }
+}
+
+@media (max-width:600px) {
+
+    .item {
+        width: 100%;
+    }
+
+
+}
