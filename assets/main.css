@@ -7,46 +7,67 @@ body {
   margin-bottom: 2%;
 }
 
-#body {
+
+@media only screen and (max-width: 800px) {
+
+    body .body {
+      background-color: #ff00a0;
+    }
+    body {
+        background-color: #6d00ff;
+        font-family: monospace;
+    }
+
+}
+
+.body {
   background-color: black;
-  width: 98%;
+  width: 96%;
   border-style: dotted;
+  position: absolute;
+  height: 94%;
 }
 
 h1 {}
 
 h2 {
-  font-size: 48px;
-  margin-left: -50px;
+  font-size: 1.5em;
   margin-top: 1.5em;
   padding-bottom: 0.6em;
   letter-spacing: 0.1em;
-  position: relative;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.2em;
   color: gold;
-  margin-left: -50px;
   border-left: solid;
   border-width: 5px;
   padding-left: 50px;
   margin-top: 2em;
 }
 
+#left a{
+  margin-left: 4em;
+}
+#right a {
+  padding-bottom: 0.5em;
+  margin-left: 4em;
+}
 
 a {
-  font-size: 18px;
+  font-size: 0.8em;
   text-decoration: none;
   color: #6341ff;
   border-bottom: solid;
   border-width: 4px;
-  margin-bottom: 5em;
   padding-bottom: 0.5em;
 }
 
+.sub {
+  margin-top: 1.5em;
+}
+
 a:hover{
-  font-size: 18px;
   text-decoration: none;
   color: #6341ff;
   border-bottom: solid;
@@ -55,32 +76,32 @@ a:hover{
   background-color: pink;
 }
 
-.r {
-  display: table-cell;
-  padding-bottom: 0.5em;
-}
 
 #left {
-  width: 52%;
+  width: 55vw;
   height: auto;
-  display: inline-block;
   float: left;
-  margin-left: 10%;
+  margin-left: 5%;
+  position: absolute;
 }
 
 #right {
+margin-left: 55vw;
   width: 38%;
+  margin-left: ;
   height: auto;
-  display: inline-block;
   margin-bottom: 4%;
+  position: relative;
 }
 
-p {
-  margin-left: -50px;
-  font-size: 12px;
-  border-left: solid;
-  padding-left: 50px;
+.info {
+  font-size: 0.6em;
   line-height: 2em;
   position: absolute;
-  top: 80%;
+  margin-top: 10em;
+}
+
+.info p{
+  border-left: solid;
+  padding-left: 50px;
 }

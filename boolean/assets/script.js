@@ -194,7 +194,7 @@ $(document).ready(function() {
   var d = new Date();
   var n = d.getDay();
   // document.getElementById("demo").innerHTML = n;
-  if (n == 4) {
+  if (n == 5) {
     console.log("today is friday");
     $(".friday").show();
     $(".white").hide();
