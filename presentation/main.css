@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  font-family: 'Ubuntu Mono', monospace;
+  color: gold;
+  margin: 0;
+  font-size: 6vh;
+  text-align: center;
+
+}
+
+.title {
+  border-bottom: solid 1vh;
+  position: relative;
+  background-color: black;
+  font-size: 10vh;
+  line-height: 0.9em;
+  margin: 0;
+  margin-left: 24vw;
+  position: fixed;
+  top:0
+
+}
+.list{
+  font-size: 4vh;
+  line-height: 1.2em;
+}
+a {
+  text-decoration: none;
+  color: gold;
+  margin-bottom: 1em;
+  display: block;
+}
+
+.text a:hover {
+  text-decoration: line-through;
+  color: red;
+}
+
+
+.text {
+  top: 12vh;
+  position: relative;
+}
