@@ -14,17 +14,17 @@ $(document).ready(function() {
 
 
   var na = 0;
+  var arr = ["homogeneous ", "相似的", "homogéneas"];
   $("#homogenous").click(function() {
 
     $(".right").append('Hace quinientos años, el jefe de un hexágono superior dio con un libro tan confuso como los otros, pero que tenía casi dos hojas de líneas homogéneas.');
-    $("#homogenousT").append(' but which had nearly two pages of homogeneous lines. ');
+    $("#homogenousT").append('but which had nearly two pages of homogeneous lines.');
     // $("#homogenous").css("font-size", "0");
 
-    var rand = (Math.round(Math.random() * 10));
-    $("body").append("<p class=\"numby\" id=\"" + "numby" + na + "\">" + '差不多有两页都包含着相似的句行。' + "</p>");
-    $("#numby" + na).css("top", (Math.random() * 40) + "%");
-    $("#numby" + na).css("left", (Math.random() * 100) + "%");
-    $("#numby" + na).css("font-size", (Math.random() * 200) + "px");
+    $("body").append("<p class=\"numby\" id=\"" + "numby1" + na + "\">" + 'HOMOGENEOUS' + "</p>");
+    $("#numby1" + na).css("top", (Math.random() * 100) + "%");
+    $("#numby1" + na).css("left", (Math.random() * 100) + "%");
+    $("#numby1" + na).css("font-size", (Math.random() * 100) + "px");
     na++;
   });
 
@@ -32,14 +32,12 @@ $(document).ready(function() {
   $("#lithuanian").click(function() {
 
     $(".right").append('这是瓜拉尼人的萨莫那德——立陶宛方言，还附带古典的阿拉伯语变音。');
-    $("#lithuanianT").append(' a Samoyedic Lithuanian dialect of Guarani, ');
-    // $("#homogenous").css("font-size", "0");
+    $("#lithuanianT").append(' a Samoyed          ic Lithuanian dialect of Guarani, ');
 
-    var rand = (Math.round(Math.random() * 10));
-    $("body").append("<p class=\"numby\" id=\"" + "numby" + nb + "\">" + 'un dialecto samoyedo-lituano del guaraní' + "</p>");
-    $("#numby" + nb).css("top", (Math.random() * 40) + "%");
-    $("#numby" + nb).css("left", (Math.random() * 100) + "%");
-    $("#numby" + nb).css("font-size", (Math.random() * 200) + "px");
+    $("body").append("<p class=\"numby\" id=\"" + "numby2" + nb + "\">" + '立陶宛方言' + "</p>");
+    $("#numby2" + nb).css("top", (Math.random() * 40) + "%");
+    $("#numby2" + nb).css("left", (Math.random() * 100) + "%");
+    $("#numby2" + nb).css("font-size", (Math.random() * 200) + "px");
     nb++;
   });
 
@@ -48,13 +46,11 @@ $(document).ready(function() {
 
     $(".right").append(' the space, the period, the comma, the twenty-two letters of the alphabet.');
     $("#symbolT").append(' ,.qwertyopasdfghklxcvbnm');
-    // $("#symbol").css("font-size", "0");
 
-    var rand = (Math.round(Math.random() * 10));
-    $("body").append("<p class=\"numby\" id=\"" + "numby" + nc + "\">" + '[ ] [,] [.]' + "</p>");
-    $("#numby" + nc).css("top", (Math.random() * 40) + "%");
-    $("#numby" + nc).css("left", (Math.random() * 100) + "%");
-    $("#numby" + nc).css("font-size", (Math.random() * 200) + "px");
+    $("body").append("<p class=\"numby\" id=\"" + "numby3" + nc + "\">" + '[ ] [,] [.]' + "</p>");
+    $("#numby3" + nc).css("top", (Math.random() * 40) + "%");
+    $("#numby3" + nc).css("left", (Math.random() * 100) + "%");
+    $("#numby3" + nc).css("font-size", (Math.random() * 200) + "px");
     nc++;
   });
 

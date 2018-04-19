@@ -3,7 +3,8 @@ body {
   color: white;
   font-family: 'Lusitana', serif;
   font-size: 0.9em;
-  margin: 0;
+  margin: auto;
+
 }
 
 p {
@@ -68,8 +69,17 @@ opacity: .8;
   color: #00ffff;
   pointer-events: none;
   mix-blend-mode: exclusion;
-
 }
+
+#numby1{
+  pointer-events: none;
+}#numby2{
+  pointer-events: none;
+}#numby3{
+  pointer-events: none;
+}
+
+
 
 
 .translate{
