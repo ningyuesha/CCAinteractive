@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  font-family: 'Press Start 2P';
+  color: #6341ff;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+img {
+  margin-top: 60px;
+  margin-left: 10%;
+  max-width: 80%;
+  box-shadow: 15px 20px #6341ff;
+}
+
+h4 {
+  text-align: center;
+  margin: 2em;
+  font-size: 24px;
+  letter-spacing: 0.2em;
+}
+
+div {}
+
+#close {
+  font-size: 56px;
+  font-style: bold;
+  color: gold;
+  position: fixed;
+  margin-left: 92%;
+  margin-top: 0%;
+  text-decoration: none;
+}

@@ -4,47 +4,75 @@ body {
   font-family: 'Lusitana', serif;
   font-size: 0.9em;
   margin: auto;
-
 }
 
 p {
-  line-height: 1.66em;
+  line-height: 1.8em;
   mix-blend-mode: exclusion;
+
+}
+h1{
+  line-height: 0.8em;
+  text-align: center;
 
 }
 
 .title {
-  text-align: center;
+  letter-spacing: 0.6em;
 }
 
+.title h1 {
+  margin-top: 8vh;
+  position: absolute;
+    left: 23%;
+    cursor: none;
+}
+
+#title1{
+  transition: all .2s ease;
+}#title2{
+  opacity: 0;
+  transition: all 2s ease;
+}
 .text {
-  max-width: 750px;
-  margin: auto;
+  margin-top: 12vh;
+  max-width: 900px;
+  position: absolute;
+  left: 5%;
+
+
 }
 
 .text div {
-  max-width: 350px;
   float: left;
   position: relative;
+  max-width: 400px;
+
 }
 
 .right {
   margin-left: 50px;
+  transition: 'all .8s ease'
 }
 
+.left .chinese:hover{
+  text-decoration: line-through;
+}.left .spanish:hover{
+text-decoration: line-through;
+}
 .chinese, .spanish{
   cursor: pointer;
   color: #00ffff;
 
 }
-
+/*
 @font-face {
   font-family: 'HYXinRenWenSong';
   src: url('HYXinRenWenSongW-1.otf');
-}
+} */
 .chinese {
-  font-size: 0.8em;
-  font-family: 'HYXinRenWenSong';
+  font-size: 0.9em;
+  /* font-family: 'HYXinRenWenSong'; */
 }
 
 .spanish {
@@ -54,9 +82,9 @@ p {
 
 
 .rotate {
-  position: fixed;
+position: fixed;
 margin-left: 27.5vw;
-margin-top: 50px;
+margin-top: 15vh;
 mix-blend-mode: exclusion;
 opacity: .8;
 }
@@ -79,9 +107,25 @@ opacity: .8;
   pointer-events: none;
 }
 
-
+.right{
+font-size: 1.3em;
+}
 
 
 .translate{
   background-color: gold;
+}
+
+.infinito{
+  z-index: 1;
+opacity: 0.6;
+  color: #00ffff;
+  font-size: 4.2em;
+  float:left;
+  position: absolute;
+  pointer-events: none;
+  margin-left: 6vw;
+  margin-top: -10vh;
+  display:none;
+
 }
