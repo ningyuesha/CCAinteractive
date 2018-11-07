@@ -8,7 +8,7 @@
 body {
   font-family: 'Press Start 2P', helvetica, arial, sans-serif;
   text-align: center;
-  background-color: #4700c6;
+  background-color: black;
   margin: auto;
   max-width: 2200px;
 }
@@ -16,7 +16,7 @@ body {
 h1{
   font-size: 4vw;
   text-align: center;
-  color: #fff8d8;
+  color: gold;
 padding: 5vw;
 }
 
@@ -45,7 +45,7 @@ p, a:hover {
   margin-top: 60px;
   left: 20%;
   font-size: 10em;
-  color: #4a00ca12;
+  color: black;
   position: absolute;
 }
 
@@ -62,8 +62,8 @@ p, a:hover {
 .item {
   height: 250px;
   width: 33.33vw;
-  background: #fff8d8;
-  color: black;
+  background: white;
+  color: gold;
   margin: 0;
   /* comment out 'float: left;' to have items stack in a single column */
   /* uncomment this to get CSS transitions (conflicts with jQuery) */
@@ -153,7 +153,7 @@ p, a:hover {
 /*---------6---------*/
 
 #button-6 {
-  background-color: #FFEFB3;
+  background-color: gold;
   color: pink;
 }
 
